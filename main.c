@@ -11,7 +11,7 @@ int main(int argc, char * argv[]) { //รับก่อนเริ่มรั
     
     printf("argc is %d\n",argc);
     int i;
-    for(i=0;i<argc;i++){
+    for(i=1;i<argc;i++){
         printf("%s\n", argv[i]);
         
     }

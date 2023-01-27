@@ -10,7 +10,7 @@
 int main(int argc, char * argv[]) { //รับก่อนเริ่มรันโปรแกรม
     
     printf("argc is %d\n",argc);
-    int i,N;
+    int i;
     for(i=0;i<argc;i++){
         printf("%s\n", argv[i]);
         
